@@ -30,7 +30,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div className="ui container" style={{ marginTop: "20px" }}>
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className="ui stackable grid">
           <div className="ui row">
